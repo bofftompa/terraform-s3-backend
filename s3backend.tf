@@ -17,7 +17,6 @@ resource "aws_s3_bucket" "state" {
   tags = {
     Name        = var.product
     Owner       = var.owner
-    Environment = local.environment
   }
 }
 
